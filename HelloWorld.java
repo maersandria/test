@@ -1,6 +1,8 @@
 public class HelloWorld {
    private String message;
-
+public static void main(String[] args){
+	 System.out.println("Mandeh ve ooooo");
+}
    public void setMessage(String message){
       this.message  = message;
    }
