@@ -12,7 +12,7 @@ public class HelloWorld {
         System.out.println("INITIATION singleton ");
    }
    public void destroy (){
-        System.out.println("destroy singleton ");
+        System.out.println("destroy sinrrSgleton ");
    }
 
    
