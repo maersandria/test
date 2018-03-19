@@ -2,7 +2,13 @@ public class HelloWorld {
    private String message;
 public static void main(String[] args){
 	 System.out.println("Mandeh ve ooooo");
+	   Assert.assertEquals(4, addition(2,2));
 }
+public int addition(int a,int b){
+	
+	return a+b;
+}
+
    public void setMessage(String message){
       this.message  = message;
    }
